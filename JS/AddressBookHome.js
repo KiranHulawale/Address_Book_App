@@ -61,8 +61,8 @@ const createInnerHtml = () => {
         <td>${contact._zip}</td>
         <td>${contact._phoneNumber}</td>
         <td>
-            <img src="../images/delete.png" alt="delete" id="${contact.id}" onclick="remove(this)">
-            <img src="../images/edit.png" alt="update" id="${contact.id}" onclick="update(this)">
+            <img src="../images/delete.svg" alt="delete" id="${contact.id}" onclick="remove(this)">
+            <img src="../images/edit.svg" alt="update" id="${contact.id}" onclick="update(this)">
         </td>
         </tr>`;
     }
